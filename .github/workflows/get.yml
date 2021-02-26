@@ -81,7 +81,7 @@ jobs:
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://noionion.top/ -o noionion.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://2heng.xin/ -o 2heng.xin.jpg
 
-        curl https://purge.jsdelivr.net/gh/NatsunoZero/ScreenShot@gh-pages/*.*
+        curl https://purge.jsdelivr.net/gh/chmoe/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
